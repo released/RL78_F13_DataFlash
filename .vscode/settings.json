@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "flash_interface.h": "c",
+        "r_cg_macrodriver.h": "c"
+    }
+}
