@@ -31,7 +31,7 @@ CC-RL(Build Tool) > Link Options > Section > Section start address , add ROM : P
 
 ![image](https://github.com/released/RL78_F13_DataFlash/blob/main/F13_SelfRAM.jpg)
 
-if meet compile error : E0562351 
+compile error : E0562351 
 
 ![image](https://github.com/released/RL78_F13_DataFlash/blob/main/E0562351_SELFRAM.jpg)
 
@@ -42,11 +42,11 @@ if meet compile error : E0562351
 refer to Data_Flash_init , Data_Flash_read , Data_Flash_write_test
 
 ```
-  BSP_DI();
+  DI();
   
   // when use flash driver function
   
-  BSP_EI();  
+  EI();  
 ```
 
 5. 
